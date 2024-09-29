@@ -1,0 +1,54 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+
+// ### DEFAULT - Top ### //
+{
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups",
+  ],
+"layer": "top",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 3,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 3,
+"margin-left": 8,
+"margin-right": 8,
+
+"modules-left": [
+	"custom/separator#blank_2",
+	"custom/arch",
+	"hyprland/workspaces",
+	"custom/separator#dot-line",
+	"hyprland/window",
+  ],
+
+"modules-center": [], 
+
+"modules-right": [
+	"custom/separator#dot-line",
+  "custom/swaync",
+	"tray",
+  "custom/separator#dot-line",
+	"mpris",
+  "custom/cava_mviz",
+	"custom/separator#dot-line",
+	"bluetooth",
+  "network",
+	"custom/separator#dot-line",
+	"clock",
+	"custom/hypridle",
+	"custom/power",
+	],
+
+"custom/arch": {
+      "format":" ",
+      "tooltip": false,
+      "on-click": "rofi -show drun"
+},
+}
