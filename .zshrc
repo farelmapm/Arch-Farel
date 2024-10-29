@@ -24,7 +24,7 @@ source $ZSH/oh-my-zsh.sh
 # fastfetch. Will be disabled if above colorscript was chosen to install
 fastfetch -c $HOME/.config/fastfetch/config-v2.jsonc
 
-# Alias
+# Aliases
 alias ls='eza --icons=always --color-scale=all -h'
 alias ll='eza -al --icons'
 alias lt='eza -a --tree --level=1 --icons'
@@ -33,6 +33,14 @@ alias pacmirror='sudo reflector --latest 5 --country Indonesia --sort rate --sav
 alias initr='sudo mkinitcpio -P'
 alias services='systemctl list-unit-files | grep enabled'
 alias mv='mv -v'
+alias srdownloader='/home/farel/Tools/The\ Sims\ Resource\ Downloader/srdownloader.sh'
+alias s4ti='/home/farel/Tools/Sims 4 Tray Importer/s4ti.sh'
+alias update='sudo pacman -Syu && yay -Syu'
+alias image='loupe'
+
+# Environment variables
+export WINE="/usr/bin/wine"
+export WINETRICKS="/usr/bin/winetricks"
 
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
 source <(fzf --zsh)

@@ -69,8 +69,8 @@
 	"escape": true,
 	"exec-on-event": true,
 	"interval": 1,
-	"exec": "$HOME/.config/hypr/hypridle.sh status",
-	"on-click": "$HOME/.config/hypr/hypridle.sh toggle",
+	"exec": "$HOME/.config/hypr/scripts/Hypridle.sh status",
+	"on-click": "$HOME/.config/hypr/scripts/Hypridle.sh toggle",
 	"on-click-right": "hyprlock"
 },
 

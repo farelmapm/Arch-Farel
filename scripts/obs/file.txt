@@ -1,5 +1,0 @@
-# OBS passthru
-bind = , HOME, pass, ^(com\.obsproject\.Studio)$
-bind = , page_up, pass, ^(com\.obsproject\.Studio)$
-bind = , page_down, pass, ^(com\.obsproject\.Studio)$
-bind = , END, pass, ^(com\.obsproject\.Studio)$
